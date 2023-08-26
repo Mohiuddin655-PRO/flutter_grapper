@@ -13,7 +13,7 @@ dependencies:
 
   # CUSTOMS
   app_color: ^0.0.7
-  flutter_andomie: ^0.5.5
+  flutter_andomie: ^0.5.6-alpha1
   flutter_androssy: ^0.2.3
   flutter_app_navigator: ^0.0.3
   flutter_route_generator: ^0.0.2

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_androssy/core.dart';
+import 'package:flutter_andomie/core.dart';
 import 'package:flutter_androssy/widgets.dart';
 import 'package:flutter_app_navigator/app_navigator.dart';
 
 import '../../index.dart';
-import 'screen_provider.dart';
 
 class SplashActivity extends AndrossyActivity with OnScreenLoaderMixin<String> {
   const SplashActivity({

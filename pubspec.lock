@@ -226,10 +226,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_andomie
-      sha256: ae19baddf8d01c5738aaa45f13dd37215f54c92771ccdf99dddf0e60a45685f0
+      sha256: "8c217972f418e49684ed439076cce88b15aa3839d9677a6e6a10ae8281cfe8a9"
       url: "https://pub.dev"
     source: hosted
-    version: "0.5.5"
+    version: "0.5.6-alpha1"
   flutter_androssy:
     dependency: "direct main"
     description:
