@@ -1,6 +1,6 @@
 class AppInfo {
   const AppInfo._();
 
-  static const name = "Flutter App";
-  static const description = "This is a flutter app description!";
+  static const name = "Graphy";
+  static const description = "Creative ui design graph";
 }

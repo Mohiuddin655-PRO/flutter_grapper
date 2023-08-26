@@ -50,8 +50,8 @@ class AppColors {
   );
 
   static final iconColor = ThemeColor(
-    light: DarkColors.darkJungleGreen.t75,
-    dark: LightColors.gainsBoro.t75,
+    light: primary.dark,
+    dark: primary.light,
   );
 
   static final titleColor = ThemeColor(
@@ -60,7 +60,7 @@ class AppColors {
   );
 
   static final textColor = ThemeColor(
-    light: Colors.black,
+    light: Colors.white,
     dark: Colors.white,
   );
 

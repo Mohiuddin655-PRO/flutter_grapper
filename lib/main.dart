@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_androssy/core.dart';
+import 'package:graphy/image_picker_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'index.dart';
@@ -37,7 +38,7 @@ class Application extends StatelessWidget {
           themeMode: value.settings.theme,
           theme: theme.light,
           darkTheme: theme.dark,
-          initialRoute: AppRoutes.splash.route,
+          initialRoute: AppRoutes.home.route,
           onGenerateRoute: AppRouter.I.generate,
         );
       },

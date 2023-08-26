@@ -1,4 +1,4 @@
-name: grapper
+name: graphy
 description: This is a flutter starter app for quick format builder.
 publish_to: 'none'
 
@@ -24,6 +24,9 @@ dependencies:
   fl_chart: ^0.63.0
   get_it: ^7.6.0
   shared_preferences: ^2.2.0
+  image_picker: ^1.0.2
+  video_player: ^2.7.0
+  mime: ^1.0.4
 
 dev_dependencies:
   flutter_test:
