@@ -1,0 +1,65 @@
+name: grapper
+description: This is a flutter starter app for quick format builder.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # CUSTOMS
+  app_color: ^0.0.7
+  flutter_andomie: ^0.5.5
+  flutter_androssy: ^0.2.3
+  flutter_app_navigator: ^0.0.3
+  flutter_route_generator: ^0.0.2
+
+  # OTHERS
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.15.0
+  fl_chart: ^0.63.0
+  get_it: ^7.6.0
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.2
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/contents/
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: Lora
+      fonts:
+        - asset: fonts/lora/bold.ttf
+          weight: 700
+        - asset: fonts/lora/bold_italic.ttf
+          weight: 700
+          style: italic
+        - asset: fonts/lora/italic.ttf
+          style: italic
+        - asset: fonts/lora/medium.ttf
+        - asset: fonts/lora/medium_italic.ttf
+        - asset: fonts/lora/regular.ttf
+        - asset: fonts/lora/semi_bold.ttf
+        - asset: fonts/lora/semi_bold_italic.ttf
+          style: italic
+        - asset: fonts/lora/variable.ttf
+        - asset: fonts/lora/variable_italic.ttf
+          style: italic
+
+    - family: Arial
+      fonts:
+        - asset: fonts/arial/bold.ttf
