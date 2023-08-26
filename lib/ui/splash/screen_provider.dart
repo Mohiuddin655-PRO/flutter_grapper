@@ -61,11 +61,13 @@ class ScreenLoader<T> {
           if (holdable) break;
         } else {
           mixin.onSkip(event);
-          if (loaders.length == index + 1) {
-            mixin.onDefault(context ?? this.context);
-          }
+        }
+        if (loaders.length == index + 1) {
+          mixin.onDefault(context ?? this.context);
         }
       }
+    } else {
+      mixin.onDefault(context ?? this.context);
     }
   }
 
